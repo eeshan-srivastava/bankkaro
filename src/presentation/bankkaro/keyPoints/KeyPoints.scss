@@ -1,0 +1,53 @@
+#keyPoints.keyPoints-container1 {
+    display: flex;
+    width: 100%;
+    min-height: 36rem;
+    flex-direction: row;
+    //background-color: aqua;
+    justify-content: space-evenly;
+    overflow: visible;
+    margin-top: -8rem;
+    z-index: 4;
+    
+    .keyPoints-container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 36rem;
+        height: max-content;
+        align-self: center;
+        //background-color: red;
+        .keyPoints-container3 {
+            display: flex;
+            width: 20rem;
+            height: 20rem;
+            //background-color: aqua;
+        }
+        .keyPoints-text1 {
+            font-size: 4.4rem;
+            line-height: 5.2rem;
+            font-weight: 700;
+            max-width: 36rem;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            align-self: center;
+            color: rgba(255, 255, 255, 1);
+            text-align: center;
+        }
+        .keyPoints-text2 {
+            font-size: 2.2rem;
+            line-height: 3.3rem;
+            font-weight: 400;
+            max-width: 36rem;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            align-self: center;
+            font-family: 'Poppins';
+            color: rgba(177, 177, 177, 1);
+            text-align: center;
+        }
+    }
+}

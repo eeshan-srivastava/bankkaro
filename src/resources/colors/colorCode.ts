@@ -4,5 +4,5 @@ export default {
     transparent: 'transparent',
     B1E368: '#B1E368',
     blue: '#00AAFF',
-    backgroundColor:'#131313'
+    backgroundColor: '#131313',
 };

@@ -1,0 +1,80 @@
+#bkHome.bkHome-container1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    //height: max-content;
+    overflow: visible;
+    position: relative;
+   
+    .bkHome-container2 {
+        width: 100%;
+        height: 89.5rem;
+        overflow: visible;
+        border-bottom-left-radius: 12rem;
+        border-bottom-right-radius: 12rem;
+        background-color: #F3EBD8;
+
+        box-shadow: 0rem 0.4rem 2rem rgba(255, 105, 180, 0.6); 
+  box-shadow: 0 0 1rem rgba(217, 155, 83, 0.8), 
+              0 0 2rem rgba(217, 155, 83, 0.6), 
+              0 0 14rem rgba(217, 155, 83, 0.4);
+  transition: box-shadow 0.3s ease-in-out;
+  
+
+        
+
+        .bkHome-container3 {
+            width: 100%;
+            height: 89.5rem;
+            border-bottom-left-radius: 12rem;
+            border-bottom-right-radius: 12rem;
+            margin-top: -0.2rem;
+            overflow: hidden;
+            background-color: aqua;
+            .bkHome-container4 {
+                display: flex;
+                width: 100%;
+                height: 89.5rem;
+                position: absolute;
+                border-bottom-left-radius: 12rem;
+            border-bottom-right-radius: 12rem;
+            }
+            .bkHome-container5 {
+                display: flex;
+                width: 56rem;
+                height: 35rem;
+                position: absolute;
+                top:24rem;
+                right: 16rem;
+                z-index: 2;
+            }
+            .bkHome-container6 {
+                display: flex;
+                position: absolute;
+                flex-direction: column;
+                //align-items: flex-start;
+                z-index: 2;
+                top:34rem;
+                left: 16rem;
+
+                .bkHome-container7{
+                    display: flex;
+                    flex-direction: column;
+                    .bkHome-text1 {
+                        font-size: 8.2rem;
+                        line-height: 9.8rem;
+                        font-weight: 700;
+                        -webkit-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
+                        //align-self: center;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: start;
+                    }
+                }
+                
+            }
+        }
+
+    }
+}
