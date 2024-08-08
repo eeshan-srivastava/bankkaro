@@ -6,7 +6,7 @@
     //background-color: aqua;
     justify-content: space-evenly;
     overflow: visible;
-    margin-top: -8rem;
+    margin-top: -7rem;
     z-index: 4;
     
     .keyPoints-container2 {
@@ -45,9 +45,9 @@
             -ms-user-select: none;
             user-select: none;
             align-self: center;
-            font-family: 'Poppins';
             color: rgba(177, 177, 177, 1);
             text-align: center;
+            font-family: 'Poppins', sans-serif;
         }
     }
 }

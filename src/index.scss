@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'PPCrika';
+    font-family: 'PPCirka';
     src: url('./resources/fonts/pp-crika/PPCirka-Light.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'PPCrika';
+    font-family: 'PPCirka';
     src: url('./resources/fonts/pp-crika/PPCirka-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'PPCrikaVariable';
+    font-family: 'PPCirkaVariable';
     src: url('./resources/fonts/pp-crika/PPCirka-Variable.ttf') format('truetype');
     font-weight: 100 900;
     font-style: normal;
@@ -24,11 +24,11 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'PPCrikaVariable', sans-serif;
+    font-family: 'PPCirkaVariable', sans-serif;
     font-size: 8px;
     overflow: hidden;
     scrollbar-width: thin;
-    scrollbar-color: #e6c889 transparent;
+    scrollbar-color: #000000 transparent;
 }
 
 body {
