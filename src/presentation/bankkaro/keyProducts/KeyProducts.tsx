@@ -1,21 +1,33 @@
 import React from 'react';
-import './BKHome.scss';
+import './KeyProducts.scss';
+import { KeyPointItemBean } from '../../bean/KeyPointItemBean';
+import { KeyProductItemBean } from '../../bean/KeyProductItemBean';
 
 
 interface Props {
     style?: React.CSSProperties;
+    keyProducts: Array<KeyProductItemBean>
 }
 
-const BKHome = (props: Props) => {
-    const { style } = props;
+const KeyProducts = (props: Props) => {
+    const { style, keyProducts } = props;
 
     return (
-        <div id={'bkHome'} className={'bkHome-container1'} style={style}>
-           
+        <div id={'keyProducts'} className={'keyProducts-container1'} style={style}>
+           {
+            keyProducts.map((item)=>{
+                return (
+                    <div key={item.id} className={'keyProducts-container2'}>
+                        <img className={'keyProducts-container3'} src={item.image}/>
+                        <p className={'keyProducts-text1'}>{item.title}</p>
+                    </div>
+                )
+            })
+           }
         </div>
     );
 };
 
-export default BKHome;
+export default KeyProducts;
 
 const styles: Record<string, React.CSSProperties> = {};

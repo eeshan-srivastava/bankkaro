@@ -16,8 +16,7 @@ const BKHome = (props: Props) => {
         <div id={'bkHome'} className={'bkHome-container1'} style={style}>
            <div className={'bkHome-container2'}>
             <div className={'bkHome-container3'}>
-                <img className={'bkHome-container4'} src={images.img_main_backdrop_2}/>
-                <img className={'bkHome-container5'} src={images.img_cc}/>
+                <img className={'bkHome-container4'} src={images.img_main_backdrop}/>
                 <div className={'bkHome-container6'}>
                     <div className={'bkHome-container7'}>
                         <span className={'bkHome-text1'}>{strings.We_Find}</span>

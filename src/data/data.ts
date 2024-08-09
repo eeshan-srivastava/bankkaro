@@ -61,7 +61,7 @@ const bankkaroData = {
         {
             id: '2',
             image: images.img_pf_2,
-            title:'Beat My Card',
+            title:'Beat Cardows',
         },
         {
             id: '3',

@@ -4,6 +4,7 @@ import BKHeader from './header/BKHeader';
 import { bankkaroData } from '../../data/data';
 import BKHome from './bkHome/BKHome';
 import KeyPoints from './keyPoints/KeyPoints';
+import KeyProducts from './keyProducts/KeyProducts';
 
 const BankKaro = () => {
     return (
@@ -12,6 +13,7 @@ const BankKaro = () => {
             <div className="bankkaro-container2">
                 <BKHome/>
                 <KeyPoints keyPoints={bankkaroData.keyPoints}/>
+                <KeyProducts keyProducts={bankkaroData.keyProducts}/>
             </div>
         </div>
     );
