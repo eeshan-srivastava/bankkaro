@@ -6,5 +6,7 @@ export default {
     KARO: 'KARO',
     Find_A_Credit_Card: 'Find A Credit Card',
     We_Find:'We find the Best',
-    Credit_Cards:'Credit Cards for You'
+    Credit_Cards:'Credit Cards for You',
+    PopularCredit:'Popular credit cards for every dedicated category',
+    Apply_Now: 'Apply Now'
 };

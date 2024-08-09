@@ -11,4 +11,8 @@ export default {
     img_pf_2: '/images/img_pf_2.png',
     img_pf_3: '/images/img_pf_3.png',
     img_pf_4: '/images/img_pf_4.png',
+    img_cc_1: '/images/img_cc_1.png',
+    img_cc_2: '/images/img_cc_2.png',
+    img_cc_3: '/images/img_cc_3.png',
+    ic_arrow: '/images/ic_arrow.png',
 };
