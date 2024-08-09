@@ -15,7 +15,7 @@ const BankKaro = () => {
                 <BKHome/>
                 <KeyPoints keyPoints={bankkaroData.keyPoints}/>
                 <KeyProducts keyProducts={bankkaroData.keyProducts}/>
-                {/* <PopularCards tags={bankkaroData.tags} cards={bankkaroData.cards}/> */}
+                <PopularCards tags={bankkaroData.tags} cards={bankkaroData.cards}/>
             </div>
         </div>
     );

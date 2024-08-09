@@ -15,4 +15,6 @@ export default {
     img_cc_2: '/images/img_cc_2.png',
     img_cc_3: '/images/img_cc_3.png',
     ic_arrow: '/images/ic_arrow.png',
+    img_grid_left: '/images/img_grid_left.png',
+    img_grid_right: '/images/img_grid_right.png',
 };
