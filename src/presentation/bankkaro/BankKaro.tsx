@@ -6,6 +6,7 @@ import BKHome from './bkHome/BKHome';
 import KeyPoints from './keyPoints/KeyPoints';
 import KeyProducts from './keyProducts/KeyProducts';
 import PopularCards from './popularCards/PopularCards';
+import CompareCards from './compareCards/CompareCards';
 
 const BankKaro = () => {
     return (
@@ -16,6 +17,7 @@ const BankKaro = () => {
                 <KeyPoints keyPoints={bankkaroData.keyPoints}/>
                 <KeyProducts keyProducts={bankkaroData.keyProducts}/>
                 <PopularCards tags={bankkaroData.tags} cards={bankkaroData.cards}/>
+                <CompareCards/>
             </div>
         </div>
     );

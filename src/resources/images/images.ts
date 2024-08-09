@@ -17,4 +17,5 @@ export default {
     ic_arrow: '/images/ic_arrow.png',
     img_grid_left: '/images/img_grid_left.png',
     img_grid_right: '/images/img_grid_right.png',
+    img_cc_backdrop:'/images/img_cc_backdrop.png'
 };
