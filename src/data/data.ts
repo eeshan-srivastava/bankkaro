@@ -127,6 +127,75 @@ const bankkaroData = {
             offer: '50% Cashback',
             description: 'High cashback on online and offline spends',
         }
+    ],
+    footerMenu:{
+        company:{
+            name: 'COMPANY',
+            items:[
+                'About BankKaro',
+                'Vision and Mission',
+                'Our Team Members',
+                'Partners and Investors'
+            ]
+        },
+        blog:{
+            name: 'BLOG',
+            items:[
+                'BankKaro Savings',
+                'Cashless Makes Perfect',
+                'BankKaro No Interest',
+                'BankKaro Digital Wallet'
+            ]
+        },
+        features:{
+            name: 'FEATURES',
+            items:[
+                'Card Genius',
+                'Lounge Finder',
+                'Beat My Card',
+                'Compare Cards'
+            ]
+        },
+        contact:{
+            name: 'CONTACT',
+            items:[
+                'Contact Us',
+                'Contact Support'
+            ]
+        },
+        legal:{
+            name: 'LEGAL',
+            items:[
+                'Terms',
+                'Privacy',
+            ]
+        },
+    },
+    lounges:[
+        {
+            id: '1',
+            image: images.img_lounge_1,
+            placeImage: images.img_place_1,
+            title: 'Indra Gandhi Int’l',
+            airport: 'IGI',
+            location: 'New Delhi',
+        },
+        {
+            id: '2',
+            image: images.img_lounge_2,
+            placeImage: images.img_place_2,
+            title: 'Indra Gandhi Int’l',
+            airport: 'IGI',
+            location: 'New Delhi'
+        },
+        {
+            id: '3',
+            image: images.img_lounge_3,
+            placeImage: images.img_place_3,
+            title: 'Indra Gandhi Int’l',
+            airport: 'IGI',
+            location: 'New Delhi'
+        }
     ]
 };
 

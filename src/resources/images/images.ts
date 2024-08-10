@@ -17,5 +17,17 @@ export default {
     ic_arrow: '/images/ic_arrow.png',
     img_grid_left: '/images/img_grid_left.png',
     img_grid_right: '/images/img_grid_right.png',
-    img_cc_backdrop:'/images/img_cc_backdrop.png'
+    img_cc_backdrop:'/images/img_cc_backdrop.png',
+    img_lounge_1: '/images/img_lounge_1.png',
+    img_lounge_2: '/images/img_lounge_2.png',
+    img_lounge_3: '/images/img_lounge_3.png',
+    img_place_1: '/images/img_place_1.png',
+    img_place_2: '/images/img_place_2.png',
+    img_place_3: '/images/img_place_3.png',
+    img_ratan_tata: '/images/img_ratan_tata.png',
+    img_instagram: '/images/img_instagram.png',
+    img_twitter: '/images/img_twitter.png',
+    img_google_play: '/images/img_google_play.png',
+    img_app_store: '/images/img_app_store.png',
+    img_spotlight: '/images/img_spotlight.png',
 };

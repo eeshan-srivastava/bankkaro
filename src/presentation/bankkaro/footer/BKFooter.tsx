@@ -1,5 +1,5 @@
 import React from 'react';
-import './BKHome.scss';
+import './BKFooter.scss';
 
 
 interface Props {
@@ -10,7 +10,7 @@ const BKFooter = (props: Props) => {
     const { style } = props;
 
     return (
-        <div id={'bkHome'} className={'bkHome-container1'} style={style}>
+        <div id={'bkFooter'} className={'bkFooter-container1'} style={style}>
            
         </div>
     );

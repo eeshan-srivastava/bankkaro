@@ -1,21 +1,21 @@
 import React from 'react';
-import './BKHome.scss';
+import './Testimonials.scss';
 
 
 interface Props {
     style?: React.CSSProperties;
 }
 
-const BKHome = (props: Props) => {
+const Testimonials = (props: Props) => {
     const { style } = props;
 
     return (
-        <div id={'bkHome'} className={'bkHome-container1'} style={style}>
+        <div id={'testimonials'} className={'testimonials-container1'} style={style}>
            
         </div>
     );
 };
 
-export default BKHome;
+export default Testimonials;
 
 const styles: Record<string, React.CSSProperties> = {};

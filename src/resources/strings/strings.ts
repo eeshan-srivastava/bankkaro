@@ -10,5 +10,22 @@ export default {
     PopularCredit:'Popular credit cards for every dedicated category',
     Apply_Now: 'Apply Now',
     Compare_Cards:'Compare Cards',
-    Unable: 'Uncover hidden benefits and find the perfect card for your financial goals.'
+    Unable: 'Uncover hidden benefits and find the perfect card for your financial goals.',
+    Lounge_Finder: 'Lounge Finder',
+    Check_whether: 'Check which lounges you can access at a click!',
+    Try_Lounge_Finder: 'Try Lounge Finder',
+    What_They:'WHAT THEY SAY ABOUT BANKKARO',
+    See_the:'See the',
+    Impact:  'Impact',
+    in_action: 'in action',
+    Ratan_Tata:'Ratan Tata',
+    Chairperson_Tata_Group:'Chairperson Tata Group',
+    Testimonials:'“ BankKaro helped me find the perfect credit card that matches my spending on groceries and travel. Highly recommend it for personalized credit card options. “',
+    nonsense: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex.',
+    app_store: 'APP STORE',
+    google_play:'GOOGLE PLAY',
+    nonsense2:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.',
+    c_bankkaro:'© 2024 Bankaro',
+    powered_by:'Powered by Pouring Pounds',
+    diamond:'⬩'
 };

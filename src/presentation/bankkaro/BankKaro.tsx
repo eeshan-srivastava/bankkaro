@@ -7,6 +7,9 @@ import KeyPoints from './keyPoints/KeyPoints';
 import KeyProducts from './keyProducts/KeyProducts';
 import PopularCards from './popularCards/PopularCards';
 import CompareCards from './compareCards/CompareCards';
+import LoungeFinder from './loungeFinder/LoungeFinder';
+import Testimonials from './testimonials/Testimonials';
+import BKFooter from './footer/BKFooter';
 
 const BankKaro = () => {
     return (
@@ -18,6 +21,9 @@ const BankKaro = () => {
                 <KeyProducts keyProducts={bankkaroData.keyProducts}/>
                 <PopularCards tags={bankkaroData.tags} cards={bankkaroData.cards}/>
                 <CompareCards/>
+                <LoungeFinder lounges={bankkaroData.lounges}/>
+                <Testimonials/>
+                <BKFooter/>
             </div>
         </div>
     );

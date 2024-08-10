@@ -1,8 +1,11 @@
-#menuItem.menuItem-container1 {
+#testimonials.testimonials-container1 {
     display: flex;
     flex-direction: row;
-    //background-color: aqua;
-    .menuItem-text1 {
+    overflow: visible;
+    width: 100%;
+    min-height: 120.2rem;
+    background-color: aqua;
+    .testimonials-text1 {
         font-size: 2rem;
         line-height: 2rem;
         font-weight: 600;
@@ -13,7 +16,7 @@
         color: rgba(255, 255, 255, 1);
         //background-color: red;
     }
-    .menuItem-container2 {
+    .testimonials-container2 {
         width: 2.4rem;
         height: 2.4rem;
         align-self: center;
