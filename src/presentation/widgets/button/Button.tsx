@@ -27,7 +27,9 @@ const Button = (props: Props) => {
         borderWidth = '0.2rem',
         width,
         height,
-        backgroundColor = '#292927',
+        //backgroundColor = '#292927',
+        //backgroundColor = '#141413',
+        backgroundColor = '#21211f',
         buttonTextStyle,
     } = props;
 

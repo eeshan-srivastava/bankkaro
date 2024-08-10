@@ -30,4 +30,5 @@ export default {
     img_google_play: '/images/img_google_play.png',
     img_app_store: '/images/img_app_store.png',
     img_spotlight: '/images/img_spotlight.png',
+    img_map: '/images/img_map.png',
 };
