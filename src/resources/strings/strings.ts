@@ -20,7 +20,7 @@ export default {
     in_action: 'in action',
     Ratan_Tata:'Ratan Tata',
     Chairperson_Tata_Group:'Chairperson Tata Group',
-    Testimonials:'“ BankKaro helped me find the perfect credit card that matches my spending on groceries and travel. Highly recommend it for personalized credit card options. “',
+    Testimonials:'" BankKaro helped me find the perfect credit card that matches my spending on groceries and travel. Highly recommend it for personalized credit card options. "',
     nonsense: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex.',
     app_store: 'APP STORE',
     google_play:'GOOGLE PLAY',

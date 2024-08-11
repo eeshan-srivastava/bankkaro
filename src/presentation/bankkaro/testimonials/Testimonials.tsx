@@ -1,5 +1,7 @@
 import React from 'react';
 import './Testimonials.scss';
+import images from '../../../resources/images/images';
+import strings from '../../../resources/strings/strings';
 
 
 interface Props {
@@ -11,7 +13,22 @@ const Testimonials = (props: Props) => {
 
     return (
         <div id={'testimonials'} className={'testimonials-container1'} style={style}>
-           
+           <img src={images.img_ratan_tata} className={'testimonials-container2'}/>
+           <div className={'testimonials-container3'}>
+            <div className={'testimonials-container6'}>
+            <span className={'testimonials-text1'}>{strings.What_They}</span>
+            <div className={'testimonials-container4'}>
+                <span className={'testimonials-text2'}>{strings.See_the}</span>
+                <span className={'testimonials-text3'}>{strings.Impact}</span>
+                <span className={'testimonials-text4'}>{strings.in_action}</span>
+            </div>
+            </div>
+            <div className={'testimonials-container5'}>
+                <span className={'testimonials-text5'}>{strings.Ratan_Tata}</span>
+                <span className={'testimonials-text6'}>{strings.Chairperson_Tata_Group}</span>
+            </div>
+            <span className={'testimonials-text7'}>{strings.Testimonials}</span>
+           </div>
         </div>
     );
 };
