@@ -15,6 +15,7 @@ interface Props {
     height?: string;
     backgroundColor?: string;
     buttonTextStyle?: React.CSSProperties;
+    leftIcon?: string
 }
 
 const Button = (props: Props) => {
@@ -31,6 +32,7 @@ const Button = (props: Props) => {
         //backgroundColor = '#141413',
         backgroundColor = '#21211f',
         buttonTextStyle,
+        leftIcon
     } = props;
 
     return (
@@ -54,9 +56,16 @@ const Button = (props: Props) => {
                             borderRadius: borderRadius,
                         },
                     }}>
-                    <span className="button-text1" style={buttonTextStyle}>
-                        {text}
-                    </span>
+                        <div className="button-container4">
+                                {
+                                    leftIcon?(
+                                        <img className={'button-container3'} src={leftIcon}/>
+                                    ):null
+                                }
+                            <span className="button-text1" style={buttonTextStyle}>
+                                {text}
+                            </span>
+                        </div>
                 </div>
             </GradientBorderView>
         </div>

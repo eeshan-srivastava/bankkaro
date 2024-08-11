@@ -23,7 +23,7 @@ const BankKaro = () => {
                 <CompareCards/>
                 <LoungeFinder lounges={bankkaroData.lounges}/>
                 <Testimonials/>
-                <BKFooter/>
+                <BKFooter footerMenu={bankkaroData.footerMenu}/>
             </div>
         </div>
     );

@@ -45,6 +45,12 @@ body {
     //   sans-serif;
     // -webkit-font-smoothing: antialiased;
     // -moz-osx-font-smoothing: grayscale;
+    
+    user-select: none; /* Prevent text/image selection in most browsers */
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For IE/Edge */
+     
 }
 
 code {

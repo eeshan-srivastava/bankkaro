@@ -41,7 +41,7 @@ export default BKHome;
 
 const styles: Record<string, React.CSSProperties> = {
     container2:{
-        paddingLeft: '2rem', paddingRight: '3.2rem'
+        //paddingLeft: '2rem', paddingRight: '3.2rem'
     },
     container3:{
         marginTop:'2rem'

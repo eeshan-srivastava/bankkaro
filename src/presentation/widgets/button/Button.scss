@@ -12,21 +12,34 @@
         align-self: center;
         //background: linear-gradient(180deg, rgba(12, 12, 12, 1) 0%, rgba(0, 0, 0, 1) 100%);
         box-shadow: inset 0px 0px 15px rgba(250, 250, 250, 0.22);
-        .button-text1 {
-            font-size: 2.4rem;
-            //line-height: 2.4rem;
-            font-weight: 600;
-            -webkit-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            align-self: center;
-            color: rgba(255, 255, 255, 1);
-            background: linear-gradient(0deg, #e4c2a2, #ffe9be);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            display: inline;
-            margin-top: 0.3rem;
+        .button-container4{
+            display: flex;
+            flex-direction: row;
+            //background-color: red;
+            .button-container3 {
+                display: block;
+                width: 4.8rem;
+                height: 4.8rem;
+                margin-right: 0.8rem;
+                align-self: center;
+            }
+            .button-text1 {
+                font-size: 2.4rem;
+                //line-height: 2.4rem;
+                font-weight: 600;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                align-self: center;
+                color: rgba(255, 255, 255, 1);
+                background: linear-gradient(0deg, #e4c2a2, #ffe9be);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                display: inline;
+                margin-top: 0.3rem;
+                align-self: center;
+            }
         }
     }
 }
