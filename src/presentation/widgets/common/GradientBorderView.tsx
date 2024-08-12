@@ -11,7 +11,7 @@ interface Props {
 
 const GradientBorderView = (props: Props) => {
     const { children, borderWidth, colors, borderRadius = '0rem', style } = props;
-    const gradient = `linear-gradient(180deg, ${colors.join(', ')})`;
+    const gradient = `linear-gradient(195deg, ${colors.join(', ')})`;
 
     return (
         <div

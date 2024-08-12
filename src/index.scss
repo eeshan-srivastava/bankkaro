@@ -1,3 +1,5 @@
+@import '/src/scss/breakpoints';
+
 @font-face {
     font-family: 'PPCirka';
     src: url('./resources/fonts/pp-crika/PPCirka-Light.otf') format('opentype');
@@ -26,6 +28,27 @@
     scroll-behavior: smooth;
     font-family: 'PPCirkaVariable', sans-serif;
     font-size: 8px;
+    @include breakpoint-xxs {
+        font-size: 1.8px;
+    }
+    @include breakpoint-xs {
+        font-size: 2px;
+    }
+    @include breakpoint-sm {
+        font-size: 2.8px;
+    }
+    @include breakpoint-md {
+        font-size: 4px;
+    }
+    @include breakpoint-lg {
+        font-size: 5px;
+    }
+    @include breakpoint-xl {
+        font-size: 6px;
+    }
+    @include breakpoint-ul {
+        font-size: 7.9px;
+    }
     overflow: hidden;
     scrollbar-width: thin;
     scrollbar-color: #000000 transparent;
