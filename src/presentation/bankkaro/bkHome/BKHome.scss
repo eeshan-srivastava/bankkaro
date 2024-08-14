@@ -1,3 +1,4 @@
+@import '/src/scss/breakpoints';
 #bkHome.bkHome-container1 {
     display: flex;
     flex-direction: column;
@@ -47,7 +48,11 @@
                 .bkHome-container40 {
                     width: 100%;
                     height: 100%;
-                    // object-fit: cover; 
+                    object-fit:cover; 
+                    object-position: bottom;
+                    @include breakpoint-ul {
+                        object-fit: none;
+                    }
                     pointer-events: none; 
                 }
             }
