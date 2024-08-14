@@ -39,7 +39,7 @@ const BKFooter = (props: Props) => {
                         innerStyle={styles.container2}
                         style={styles.container3}
                         height="7.8rem"
-                        width='27rem'
+                        width='26rem'
                         buttonTextStyle={styles.text1}
                         leftIcon={images.img_google_play}
                     />

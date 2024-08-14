@@ -17,6 +17,8 @@ interface Props {
     buttonTextStyle?: React.CSSProperties;
     leftIcon?: string
     gradientAngle?: string
+    gradientBorderOpacity?: number
+    opacity?: number
 }
 
 const Button = (props: Props) => {
@@ -34,7 +36,9 @@ const Button = (props: Props) => {
         backgroundColor = '#21211f',
         buttonTextStyle,
         leftIcon,
-        gradientAngle='195deg'
+        gradientAngle='195deg',
+        gradientBorderOpacity=1,
+        opacity = 1
     } = props;
 
     return (
@@ -47,30 +51,51 @@ const Button = (props: Props) => {
                 colors={bankkaroData.buttonGraditent.active}
                 borderWidth={borderWidth}
                 borderRadius={borderRadius}
-                gradientAngle={gradientAngle}>
-                <div
-                    className="button-container2"
-                    style={{
-                        ...innerStyle,
-                        ...{
-                            width: width,
-                            height: height,
-                            backgroundColor: backgroundColor,
-                            borderRadius: borderRadius,
-                        },
-                    }}>
-                        <div className="button-container4">
-                                {
-                                    leftIcon?(
-                                        <img className={'button-container3'} src={leftIcon}/>
-                                    ):null
-                                }
-                            <span className="button-text1" style={buttonTextStyle}>
-                                {text}
-                            </span>
-                        </div>
-                </div>
-            </GradientBorderView>
+                gradientAngle={gradientAngle}
+                opacity={gradientBorderOpacity}
+                style={{
+                    ...innerStyle,
+                    ...{
+                        width: width,
+                        height: height,
+                        backgroundColor: backgroundColor,
+                        borderRadius: borderRadius,
+                    },
+                }}/>
+            <div
+                className="button-container2"
+                style={{
+                    ...innerStyle,
+                    ...{
+                        minWidth: `calc(${width} - 2 * ${borderWidth})`,
+                        height: `calc(${height} - 2 * ${borderWidth})`,
+                        backgroundColor: backgroundColor,
+                        borderRadius: borderRadius,
+                        opacity: opacity
+                    },
+                }}>
+            </div>
+            <div className="button-container21" style={{
+                    ...innerStyle,
+                    ...{
+                        minWidth: `calc(${width} - 2 * ${borderWidth})`,
+                        height: `calc(${height} - 2 * ${borderWidth})`,
+                        //backgroundColor: backgroundColor,
+                        borderRadius: borderRadius,
+                        backgroundColor: 'transparent'
+                    },
+                }}>
+                    <div className="button-container4">
+                        {
+                        leftIcon?(
+                            <img className={'button-container3'} src={leftIcon}/>
+                        ):null
+                    }
+                    <span className="button-text1" style={buttonTextStyle}>
+                        {text}
+                    </span>
+                    </div>
+            </div>
         </div>
     );
 };

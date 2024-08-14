@@ -38,7 +38,10 @@ const BKHeader = (props: Props) => {
                         text="Sign In"
                         innerStyle={styles.container2}
                         style={styles.container3}
-                        height="4rem"
+                        width='12.4rem'
+                        height="4.6rem"
+                        gradientBorderOpacity={1}
+                        opacity={1}
                     />
                     <GradientBorderView
                         colors={bankkaroData.buttonGraditent.active}
@@ -59,7 +62,7 @@ const styles: Record<string, React.CSSProperties> = {
         marginRight: '8rem',
     },
     container2:{
-        paddingLeft: '2rem', paddingRight: '3.2rem'
+        //paddingLeft: '2rem', paddingRight: '3.2rem'
     },
     container3:{alignSelf:'center'},
     container4:{alignSelf:'center', zIndex:2, marginLeft: '-1.6rem', cursor: 'pointer'}

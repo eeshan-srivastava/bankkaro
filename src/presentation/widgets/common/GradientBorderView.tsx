@@ -8,10 +8,11 @@ interface Props {
     borderRadius?: string;
     style?: React.CSSProperties;
     gradientAngle?: string
+    opacity?: number
 }
 
 const GradientBorderView = (props: Props) => {
-    const { children, borderWidth, colors, borderRadius = '0rem', style, gradientAngle='195deg' } = props;
+    const { children, borderWidth, colors, borderRadius = '0rem', style, gradientAngle='195deg', opacity=1 } = props;
     const gradient = `linear-gradient(${gradientAngle}, ${colors.join(', ')})`;
 
     return (
@@ -22,6 +23,7 @@ const GradientBorderView = (props: Props) => {
                 ...{
                     borderRadius: borderRadius,
                     background: gradient,
+                    opacity: opacity
                 },
                 ...style,
             }}>

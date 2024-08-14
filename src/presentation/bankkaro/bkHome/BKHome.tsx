@@ -36,7 +36,7 @@ const BKHome = (props: Props) => {
                         text={strings.Find_A_Credit_Card}
                         innerStyle={styles.container2}
                         style={styles.container3}
-                        height="7rem"
+                        height="7.4rem"
                         width='30.8rem'
                         buttonTextStyle={styles.text1}
                     />
@@ -54,7 +54,7 @@ const styles: Record<string, React.CSSProperties> = {
         //paddingLeft: '2rem', paddingRight: '3.2rem'
     },
     container3:{
-        marginTop:'2rem'
+        marginTop:'3rem'
     },
     text1:{
         fontSize:'2.8rem',
