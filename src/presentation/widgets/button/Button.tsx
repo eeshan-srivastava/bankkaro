@@ -16,6 +16,7 @@ interface Props {
     backgroundColor?: string;
     buttonTextStyle?: React.CSSProperties;
     leftIcon?: string
+    gradientAngle?: string
 }
 
 const Button = (props: Props) => {
@@ -32,7 +33,8 @@ const Button = (props: Props) => {
         //backgroundColor = '#141413',
         backgroundColor = '#21211f',
         buttonTextStyle,
-        leftIcon
+        leftIcon,
+        gradientAngle='195deg'
     } = props;
 
     return (
@@ -44,7 +46,8 @@ const Button = (props: Props) => {
             <GradientBorderView
                 colors={bankkaroData.buttonGraditent.active}
                 borderWidth={borderWidth}
-                borderRadius={borderRadius}>
+                borderRadius={borderRadius}
+                gradientAngle={gradientAngle}>
                 <div
                     className="button-container2"
                     style={{

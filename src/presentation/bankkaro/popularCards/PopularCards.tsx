@@ -51,7 +51,8 @@ const PopularCards = (props: Props) => {
                                     colors={config[(item.isSelected?'selected':'unselected')].gradient}
                                     borderWidth={'0.1rem'}
                                     borderRadius={'0.64rem'}
-                                    style={{marginRight: '1.6rem'}}>
+                                    style={{marginRight: '1.6rem'}}
+                                    gradientAngle='180deg'>
 
                                         <div className={'popularCards-container60'} style={{backgroundColor:config[(item.isSelected?'selected':'unselected')].backgroundColor}}>
                                             <span className={'popularCards-text60'} style={{color: config[(item.isSelected?'selected':'unselected')].textColor}}>{item.name}</span>

@@ -14,10 +14,11 @@
         border-bottom-right-radius: 12rem;
         background-color: #F3EBD8;
 
-  box-shadow: 0 0 1rem rgba(217, 155, 83, 0.8), 
-              0 0 14rem rgba(217, 155, 83, 0.4), 
-              0 0 14rem rgba(217, 155, 83, 0.4);
+  box-shadow: 0 0 20rem rgba(217, 155, 83, 0.2), 
+              0 0 20rem rgba(217, 155, 83, 0.2), 
+              0 6rem 20rem rgba(217, 155, 83, 0.3);
   transition: box-shadow 0.3s ease-in-out;
+  //backdrop-filter: blur(10px);
   
 
         
@@ -27,26 +28,62 @@
             height: 89.5rem;
             border-bottom-left-radius: 12rem;
             border-bottom-right-radius: 12rem;
-            margin-top: -0.2rem;
+            margin-top: -0.3rem;
             overflow: hidden;
+            position: relative;
             //background-color: aqua;
+
+
             .bkHome-container4 {
                 display: flex;
                 width: 100%;
                 height: 89.5rem;
-                object-fit: cover; 
-                object-position: center;
+                // object-fit: cover; 
+                // object-position: center;
                 position: absolute;
+                margin-left: 44rem;
                 border-bottom-left-radius: 12rem;
             border-bottom-right-radius: 12rem;
+                .bkHome-container40 {
+                    width: 100%;
+                    height: 100%;
+                    // object-fit: cover; 
+                    pointer-events: none; 
+                }
             }
+
+            .bkHome-container30 {
+                width: 100%;
+                height: 89.5rem;
+                border-bottom-left-radius: 12rem;
+                border-bottom-right-radius: 12rem;
+                //margin-top: -0.3rem;
+                overflow: hidden;
+                z-index: 2;
+                position: absolute;
+               
+                //background-color: aqua;
+
+                .bkHome-container300 {
+                    width: 320rem;
+                    height: 100rem;
+                    background: radial-gradient(
+                        circle, 
+                        rgba(46, 46, 46, 0) 20%, 
+                        rgba(26, 26, 26, 1) 60%, 
+                        rgba(19, 19, 19, 1) 100%
+                    );
+                }
+
+            }
+
             .bkHome-container5 {
                 display: flex;
                 width: 56rem;
                 height: 35rem;
                 position: absolute;
-                top:18rem;
-                right: 18rem;
+                top:20rem;
+                right: 20rem;
                 z-index: 2;
             }
             .bkHome-container6 {
@@ -55,8 +92,8 @@
                 flex-direction: column;
                 //align-items: flex-start;
                 z-index: 2;
-                top:28rem;
-                left: 16rem;
+                top:30.4rem;
+                left: 20.4rem;
 
                 .bkHome-container7{
                     display: flex;

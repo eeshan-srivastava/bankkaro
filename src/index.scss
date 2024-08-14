@@ -28,23 +28,26 @@
     scroll-behavior: smooth;
     font-family: 'PPCirkaVariable', sans-serif;
     font-size: 8px;
+    @include breakpoint-xxxs {
+        font-size: 2px;
+    }
     @include breakpoint-xxs {
-        font-size: 1.8px;
+        font-size: 2.2px;
     }
     @include breakpoint-xs {
-        font-size: 2px;
+        font-size: 2.4px;
     }
     @include breakpoint-sm {
         font-size: 2.8px;
     }
     @include breakpoint-md {
-        font-size: 4px;
+        font-size: 4.8px;
     }
     @include breakpoint-lg {
-        font-size: 5px;
+        font-size: 5.95px;
     }
     @include breakpoint-xl {
-        font-size: 6px;
+        font-size: 7.49px;
     }
     @include breakpoint-ul {
         font-size: 7.9px;

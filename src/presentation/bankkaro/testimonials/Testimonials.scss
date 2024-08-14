@@ -9,11 +9,35 @@
 
     .testimonials-container2 {
         display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
         height: 120.2rem;
         // object-fit: cover; 
         // object-position: center;
         position: absolute;
+
+        .testimonials-container21 {
+            display: flex;
+            width: 100%;
+            height: 120.2rem;
+            background-color: aqua;
+            object-fit: cover;
+            object-position: bottom;
+        }
+
+        .testimonials-container22 {
+            display: flex;
+            width: 73.2rem;
+            height: 66.7rem;
+            //background-color: aqua;
+            object-fit: cover;
+            //bject-position: bottom;
+            position: absolute;
+            top:20.5rem;
+            z-index: 25;
+        }
+
     }
     
     .testimonials-container3 {
@@ -29,7 +53,7 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 10rem;
+            top: 9rem;
             left: 0;
             right: 0;
             // align-self: center;
@@ -38,13 +62,14 @@
             .testimonials-text1 {
                 font-size: 3.402rem;
                 line-height: 3.402rem;
-                font-weight: 700;
+                font-weight: 600;
                 -webkit-user-select: none;
                 -ms-user-select: none;
                 user-select: none;
                 align-self: center;
                 color: rgba(26, 26, 26, 1);
                 text-align: center;
+                letter-spacing: 0.1rem;
                 
                 //background-color: red;
             }
@@ -54,7 +79,7 @@
                 flex-direction: row;
                 justify-content: center;
                 //background-color: aqua;
-                margin-top: 0.8rem;
+                margin-top: 0rem;
                 //height:12rem;
                 //padding-top: 2rem;
                 .testimonials-text2 {
@@ -65,8 +90,9 @@
                     -ms-user-select: none;
                     user-select: none;
                     align-self: center;
-                    color: rgba(29, 29, 29, 1)
+                    color: rgba(29, 29, 29, 1);
                     //background-color: red;
+                    letter-spacing: -0.4rem;
                 }
     
                 .testimonials-text3 {
@@ -84,8 +110,9 @@
                     -webkit-text-fill-color: transparent;
                     background-clip: text;
                     display: inline;
-                    margin-left: 2.4rem;
-                    margin-right: 2.4rem;
+                    margin-left: 1.6rem;
+                    margin-right: 1.6rem;
+                    letter-spacing: -0.4rem;
                 }
 
                 .testimonials-text4 {
@@ -96,8 +123,9 @@
                     -ms-user-select: none;
                     user-select: none;
                     align-self: center;
-                    color: rgba(29, 29, 29, 1)
+                    color: rgba(29, 29, 29, 1);
                     //background-color: red;
+                    letter-spacing: -0.4rem;
                 }
     
             }

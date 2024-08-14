@@ -2,16 +2,17 @@ import React, { ReactNode } from 'react';
 import './GradientBorderView.scss';
 
 interface Props {
-    children: ReactNode;
+    children?: ReactNode;
     borderWidth: string;
     colors: string[];
     borderRadius?: string;
     style?: React.CSSProperties;
+    gradientAngle?: string
 }
 
 const GradientBorderView = (props: Props) => {
-    const { children, borderWidth, colors, borderRadius = '0rem', style } = props;
-    const gradient = `linear-gradient(195deg, ${colors.join(', ')})`;
+    const { children, borderWidth, colors, borderRadius = '0rem', style, gradientAngle='195deg' } = props;
+    const gradient = `linear-gradient(${gradientAngle}, ${colors.join(', ')})`;
 
     return (
         <div

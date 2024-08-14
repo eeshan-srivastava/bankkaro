@@ -2,6 +2,7 @@ import React from 'react';
 import './Testimonials.scss';
 import images from '../../../resources/images/images';
 import strings from '../../../resources/strings/strings';
+import videos from '../../../resources/videos/videos';
 
 
 interface Props {
@@ -13,7 +14,13 @@ const Testimonials = (props: Props) => {
 
     return (
         <div id={'testimonials'} className={'testimonials-container1'} style={style}>
-           <img src={images.img_ratan_tata} className={'testimonials-container2'}/>
+             {/* <img src={images.img_ratan_tata} className={'testimonials-container2'}/> */}
+            <div className={'testimonials-container2'}>
+                <video className={'testimonials-container21'} autoPlay loop muted>
+                    <source src={videos.vid_testimonials} type="video/mp4" />
+                </video>
+                <img src={images.img_ratan_idol} className={'testimonials-container22'}/>
+            </div>
            <div className={'testimonials-container3'}>
             <div className={'testimonials-container6'}>
             <span className={'testimonials-text1'}>{strings.What_They}</span>

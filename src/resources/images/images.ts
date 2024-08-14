@@ -31,4 +31,8 @@ export default {
     img_app_store: '/images/img_app_store.png',
     img_spotlight: '/images/img_spotlight.png',
     img_map: '/images/img_map.png',
+    img_mesh: '/images/img_mesh.png',
+    img_stage: '/images/img_stage.png',
+    img_ratan_idol: '/images/img_ratan_idol.png',
+    img_compare_cards: '/images/img_compare_cards.svg',
 };

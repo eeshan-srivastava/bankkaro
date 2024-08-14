@@ -3,6 +3,7 @@ import './CompareCards.scss';
 import images from '../../../resources/images/images';
 import strings from '../../../resources/strings/strings';
 import Button from '../../widgets/button/Button';
+import videos from '../../../resources/videos/videos';
 
 
 interface Props {
@@ -14,7 +15,21 @@ const CompareCards = (props: Props) => {
 
     return (
         <div id={'compareCards'} className={'compareCards-container1'} style={style}>
-            <img src={images.img_cc_backdrop} className={'compareCards-container2'}/>
+            {/* <img src={images.img_cc_backdrop} className={'compareCards-container2'}/> */}
+            <img src={images.img_compare_cards} className={'compareCards-container200'}/>
+            {/* <span className='compareCards-text2'>{strings.Compare_Cards}</span> */}
+            <div className={'compareCards-container2'}>
+                <div className={'compareCards-container21'}>
+                    <video className={'compareCards-container24'} autoPlay loop muted>
+                        <source src={videos.vid_lounge} type="video/mp4" />
+                    </video>
+                    <div className={'compareCards-container22'}/>
+                    <div className={'compareCards-container23'}>
+                        <img src={images.img_mesh}  className={'compareCards-container25'}/>
+                    </div>
+                </div>
+            </div>
+            <img src={images.img_stage} className={'compareCards-container201'}/>
             <div className={'compareCards-container3'}>
                <span className={'compareCards-text1'}>{strings.Unable}</span>
                <Button
